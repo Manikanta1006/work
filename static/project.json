@@ -1,0 +1,676 @@
+[
+    {
+        "id": 1,
+        "name": "Modernized Hospital Bed",
+        "category": "Medical Equipment",
+        "description": "Transforming Patient Care with a Revolutionary Modular Bed System",
+        "tags": "Ergonomic | Functional | Usable",
+        "longdescription": "Working from our client's innovative concept, INDQ Product Design Studio transformed this visionary modular bed system from blueprint to reality. Our team materialized the initial brief into a fully functional medical device by developing custom transition mechanisms, integrated hardware systems, and intuitive control interfaces for healthcare providers. INDQ elevated the original concept through precision industrial design balancing clinical functionality with patient comfort, while implementing comprehensive safety protocols and engineering solutions that enhance adaptability. By applying our expertise across mechanical, electronic, and software development, we've delivered a complete product ecosystem that embodies the client's vision while incorporating practical innovations for modern healthcare settings.",
+        "image": "./hospitalbed.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Pre-Compliance Testing",
+            "+ Batch Production"
+        ],
+        "altText": "Smart hospital bed hardware and embedded systems integration"
+    },
+    {
+        "id": 2,
+        "name": "Olemus",
+        "category": "Diagnostic Devices",
+        "description": "A point of care device to detect a wide range of biological components with the highest accuracy in less than a minute",
+        "tags": "User  interface | Precision | Materials",
+        "image": "./olemus_1.svg",
+        "longdescription": "INDQ developed Olemus as a comprehensive diagnostic breakthrough in myocardial infarction monitoring, integrating advanced ECG technology with multi-marker diagnostic capabilities. This innovative point-of-care device represents a holistic approach to cardiac health assessment, combining real-time electrocardiographic analysis with sophisticated biomarker detection. The design pushes beyond traditional diagnostic boundaries, offering a nuanced view of cardiac health that spans immediate detection, prognostic insights, and post-recovery monitoring. The device showcases INDQ's commitment to transformative medical technology, featuring an intelligent user interface that can simultaneously track multiple critical cardiac biomarkers alongside ECG readings. By integrating advanced diagnostic modalities into a single, user-friendly device, INDQ has created a potentially game-changing tool in cardiovascular medical technology.",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "Olemus: Smart wearable medical device designed by INDQ"
+    },
+    {
+        "id": 3,
+        "name": "Malnutrition Screening Device",
+        "category": "Diagnostic Devices",
+        "description": "A device that detects iodine and haemoglobin in a single device",
+        "tags": "Portable | Intuitive | Robust",
+        "longdescription": "In India, malnutrition remains a pressing public health crisis, with nearly 35.5% of children under five experiencing stunting and 33.4% being underweight, according to the National Family Health Survey (NFHS-5). The challenge is particularly acute in rural and economically disadvantaged regions, where limited access to comprehensive healthcare exacerbates nutritional deficiencies. The client brief challenged INDQ to develop a diagnostic solution capable of simultaneously detecting two key nutritional indicators - iodine levels and hemoglobin concentration - through a single, user-friendly device, addressing the critical need for accessible nutritional screening. The prototype developed by INDQ's design team represented an innovative approach to nutritional diagnostics, targeting the 54% of Indian women aged 15-49 and 50.4% of children who suffer from anemia. By creating a device that could provide rapid, accurate measurements of critical nutritional markers, the team demonstrated the potential to transform how malnutrition is detected and monitored in resource-constrained healthcare environments. The solution exemplified INDQ's ability to convert complex medical requirements into a streamlined, accessible diagnostic tool that could potentially improve nutritional assessment across diverse Indian healthcare settings.",
+        "image": "./malnutrition_1.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "Malnutrition Screening Device - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 4,
+        "name": "Kidney Function Test",
+        "category": "Diagnostic Devices",
+        "description": "A paper based Kidney Function <br />reader that tests urine sample collected<br /> on a paper strip",
+        "tags": "Handy | Intuitive | Functional",
+        "longdescription": "The project addressed a critical challenge in urological diagnostics: developing a paper-based reader that could simplify and streamline kidney function testing. Traditional urine analysis methods often require complex lab equipment, multiple steps, and specialized personnel, creating barriers to accessible healthcare—especially in resource-limited settings. INDQ’s design team approached the brief with a focus on creating a user-friendly, intuitive diagnostic tool to democratize kidney health monitoring. The resulting prototype is a compact, paper-strip-based Diagnostic Devices designed to offer rapid, accurate assessment of kidney function. It reduces complexity, minimizes user error, and delivers immediate, easy-to-interpret results. By reimagining the traditional diagnostic process, INDQ created a handheld solution with the potential to transform kidney testing—bridging the gap between advanced medical diagnostics and widespread usability.",
+        "image": "./kidney.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "Kidney Function Test - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 5,
+        "name": "Nebiro",
+        "category": "Therapeutic Devices",
+        "description": "A combined therapeutic respiratory device for chronic COPD & asthma patients",
+        "tags": "Affordable | Integrated | Advanced",
+        "longdescription": "In India, respiratory diseases have reached epidemic proportions, with over 55 million people suffering from chronic respiratory conditions like COPD and asthma. The client brief challenged INDQ to develop a comprehensive diagnostic and Therapeutic Devices that could address the critical need for accessible, continuous respiratory monitoring. The project aimed to create a solution that could provide both immediate insights and long-term management for patients struggling with chronic respiratory challenges. The prototype developed by the team represented a breakthrough in respiratory healthcare technology, integrating advanced diagnostic capabilities with therapeutic intervention. By combining a sophisticated device with a user-friendly mobile application, INDQ demonstrated the potential to transform how chronic respiratory conditions are monitored and managed. The solution showcased an innovative approach to patient care, offering a comprehensive tool that could potentially improve quality of life for millions of individuals battling respiratory diseases.",
+        "image": "./nebiro_1.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "Nebiro - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 6,
+        "name": "Thyloremus",
+        "category": "Diagnostic Devices",
+        "description": "A point of care device for <br />detecting thyroid",
+        "tags": "Robust | Intuitive | Portable",
+        "longdescription": "Thyroid disorders represent a significant global health challenge, with millions affected by undiagnosed or poorly managed conditions. Traditional diagnostic methods often require complex lab testing, multiple clinical visits, and long wait times—posing major barriers to accessible and timely care. INDQ recognized this critical gap, especially in regions with limited healthcare infrastructure where comprehensive thyroid screening is often unavailable or expensive. The Thyrolemus project was developed to directly address these limitations through a portable, user-friendly point-of-care device designed for rapid, accurate thyroid testing with minimal medical expertise. By integrating advanced embedded systems with intuitive industrial design, INDQ created a tool that reduces diagnostic delays, lowers healthcare costs, and enables accessible screening in both urban and rural settings. Thyrolemus reflects the studio’s dedication to solving real-world healthcare challenges through design—reimagining how thyroid disorders are detected and managed.",
+        "image": "./thyrolemus.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "Thyloremus - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 7,
+        "name": "NerveVue",
+        "category": "Preliminary Screening",
+        "description": "Early Peripheral Arterial Disorder <br />Screening Device",
+        "tags": "Non-invasive | Continuous | Connected",
+        "longdescription": "Peripheral Artery Disease affects over 200 million people globally, yet 75% of cases remain undiagnosed until advanced stages due to subtle early symptoms.",
+        "image": "./aarca.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Batch Production"
+        ],
+        "altText": "NerveVue - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 8,
+        "name": "Smart Colposcopy",
+        "category": "Medical Equipment",
+        "description": "Revolutionising colposcopy with all <br />the new depth perception in the imaging <br />for efficient AI/ML interpretations",
+        "tags": "Portable | Ergonomic | Smart",
+        "longdescription": "Working from our client's innovative concept, INDQ Product Design Studio transformed this visionary colposcopy system from blueprint to reality. Our team materialized the initial brief into a fully functional medical device by developing an ergonomic head-mounted platform, integrated optical systems, and advanced imaging technology that enables AI/ML interpretations through enhanced depth perception. INDQ elevated the original concept through precision engineering that balances clinical functionality with practitioner comfort, while implementing sophisticated imaging capabilities for improved diagnostic accuracy. By applying our expertise across mechanical design, optical engineering, and digital imaging, we've delivered a complete examination system that embodies the client's vision of making advanced cervical examinations more accessible, comfortable, and accurate for modern healthcare settings.",
+        "image": "./colposcopy.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics"
+        ],
+        "altText": "Smart Colposcopy - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 9,
+        "name": "Taparch",
+        "category": "Consumer Healthcare",
+        "description": "Footwear for blind people to enable easy navigation",
+        "tags": "Affordable | Inclusive | Smart",
+        "longdescription": "Unlike most products in INDQ's portfolio, Taparch represents the studio's own innovation journey—from initial concept through full production. This smart footwear system was born from identifying a critical gap in mobility solutions for people with visual impairments. Designed specifically for individuals with blindness, albinism, and macular degeneration, Taparch integrates navigation technology directly into everyday footwear, eliminating the stigma often associated with assistive devices while enhancing functional independence. The development process showcased INDQ's comprehensive capabilities, combining industrial design with embedded systems engineering to create a practical, affordable solution. The shoes feature subtle sensors that detect obstacles and provide haptic feedback through the foot—a natural interface that doesn't require additional training or interfere with other senses critical for environmental awareness. By making this technology accessible through thoughtful design and cost-effective manufacturing, Taparch embodies INDQ's commitment to inclusive innovation that addresses real human needs. This product demonstrates how design thinking can transform lives when applied to overlooked challenges, creating technology that serves humanity through its simplicity and effectiveness.",
+        "image": "./taparch.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Pre-Compliance Testing",
+            "+ Batch Production"
+        ],
+        "altText": "Taparch - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 10,
+        "name": "Simple Bionic",
+        "category": "Consumer Healthcare",
+        "description": "A functional & affordable robotic arm with native looking elements",
+        "tags": "Humane | Functional | Affordable",
+        "longdescription": "In the landscape of prosthetic innovation, complexity and cost often limit access to those who need it most. Simple Bionic, an INDQ-developed solution, challenges this paradigm through thoughtful engineering that prioritizes accessibility without compromising functionality. This prosthetic hand combines multifunctional grip patterns with adaptive grasp compliance in a design that remains remarkably affordable. The system's detachable wrist mechanism provides dynamic functionality while maintaining retrofittability to existing passive prostheses—making advanced capabilities available to a broader population of users. What distinguishes Simple Bionic is its philosophy of \"essential sophistication\"—delivering exactly what users need without costly features that drive up price without proportional benefit. The aesthetic naturalness and native appearance contribute to psychological acceptance, while the technical capabilities support real-world functionality. Developed in collaboration with AMTZ (Andhra Pradesh MedTech Zone), this prosthetic solution exemplifies INDQ's commitment to democratizing medical technology through independent innovation. By focusing on flexibility, control, and intuitive operation, Simple Bionic transforms prosthetic accessibility in markets where advanced bionic options have traditionally remained out of reach, creating what one user described as \"an engagement ending in triumph.\"",
+        "image": "./bionic.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Pre-Compliance Testing",
+            "+ Batch Production"
+        ],
+        "altText": "Bionic prosthetic arm development and electronics design"
+    },
+    {
+        "id": 11,
+        "name": "Neuro Surgical Optics",
+        "category": "Medical Equipment",
+        "description": "A cost effective accessory for optical instrument used during the procedure in Neurosurgery",
+        "tags": "Universal | Inclusive | Mechanized",
+        "longdescription": "Precision meets accessibility in this groundbreaking neurosurgical optics system. Designed as a universal accessory for existing optical instruments, it transforms standard neurosurgical visualization through a mechanized platform that enhances stability, reduces fatigue, and improves visual clarity during delicate brain procedures. The dual-disc design with integrated filters allows surgeons to seamlessly transition between visualization modes without interrupting their workflow, while the ergonomic control handle enables precise adjustments with minimal movement. What truly distinguishes this innovation is its inclusive approach to neurosurgical technology. By creating a cost-effective accessory that integrates with equipment already found in most operating rooms, it democratizes access to advanced visualization capabilities for hospitals with diverse resource landscapes. This philosophy of universal design extends the benefits of cutting-edge optics to more patients and providers worldwide, embodying the principle that exceptional neurosurgical care should not be limited by economic constraints or geographical boundaries.",
+        "image": "./neuro.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Batch Production",
+            "+ Embedded Electronics",
+            "+ Pre-Compliance Testing"
+        ],
+        "altText": "Neuro Surgical Optics - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 12,
+        "name": "Jananya",
+        "category": "Medical Equipment",
+        "description": "Reimagining Maternal Care Through Technology",
+        "tags": "Non-Invasive | Comfort | Portable",
+        
+        "image": "./jananya.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Pre-Compliance Testing"
+        ],
+        "altText": "Jananya - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 13,
+        "name": "Digital Torquing Tool",
+        "category": "Medical Equipment",
+        "description": "A unique solution for orthodontist to measure degree of torque in an Archwire",
+        "tags": "Technology | Material | Functional",
+        "longdescription": "Precision in orthodontics directly impacts treatment outcomes, yet measuring archwire torque has traditionally relied on subjective assessment. This digital torquing tool prototype addresses this challenge by providing orthodontists with objective measurement of torque applied to archwires during treatment adjustments. Working from the client's innovative concept, INDQ brought the idea to life through a combination of physical hardware components and smartphone integration, creating a portable solution that transforms everyday mobile devices into precise measurement instruments. Developed over three months from concept to functional prototype, the system demonstrates the intersection of specialized clinical knowledge with accessible technology. INDQ's multidisciplinary approach included rapid prototyping of the physical components, development of mobile application interfaces, and industrial design that prioritizes clinical usability. Though the project concluded at the prototyping stage, it illustrates how digital transformation in specialized medical fields doesn't always require complex equipment—sometimes the most effective solutions combine purpose-built hardware with the computational power already in practitioners' pockets. For orthodontists, this means more predictable results, standardized treatment approaches, and improved documentation of care.",
+        "image": "./denticon.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Batch Production",
+            "+ Pre-Compliance Testing"
+        ],
+        "altText": "Dentobot: Advanced dental robotics device prototyping"
+    },
+    {
+        "id": 14,
+        "name": "Oral Screening Device",
+        "category": "Therapeutic Devices",
+        "description": "A device that screen disorders like pre-cancerous lesions & gum diseases using AI",
+        "tags": "Affordable | Inclusive | Smart",
+        "longdescription": "In India, oral health challenges have reached critical levels, with over 80% of the population suffering from some form of dental disease and oral cancer ranking among the top three cancer types in the country. The client brief challenged INDQ to develop an AI-powered screening device capable of detecting a wide range of oral disorders, from pre-cancerous lesions to dental cavities, with unprecedented accuracy and accessibility. The prototype represented a breakthrough in oral healthcare technology, designed to address the significant gaps in early disease detection. By leveraging artificial intelligence, the device can screen for multiple oral health conditions including mouth cancer, gingivitis, periodontitis, dental caries, and other critical oral disorders. The solution demonstrates the potential to transform oral healthcare screening, offering a comprehensive, affordable tool that could significantly improve early detection and treatment of oral health issues across diverse populations.",
+        "image": "./oralscreen.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Batch Production",
+            "+ Embedded Electronics"
+        ],
+        "altText": "Oral Screening Device - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 15,
+        "name": "The Beat",
+        "category": "Consumer Healthcare",
+        "description": "An at-home fetal health monitoring system for prenatal stage of pregnancy.",
+        "tags": "Smart | Ergonomic | Functional",
+        
+        "image": "./beat.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Batch Production",
+            "+ Embedded Electronics"
+        ],
+        "altText": "Beat: Portable ECG and heart monitoring device design"
+    },
+    {
+        "id": 16,
+        "name": "Pain Numbing Device",
+        "category": "Medical Equipment",
+        "description": "This coin sized probe numbs the skin surface area for a few seconds until drug delivery",
+        "tags": "Innovative | Rapid | Affordable",
+        "longdescription": "The burden of painful injections has met its match in this elegantly simple solution. Featuring a compact base unit and coin-sized numbing probe, this device temporarily desensitizes the skin surface within seconds, creating a pain-free pathway for injections, blood draws, and other needle-based procedures. Its intuitive digital display indicates readiness status, while the ergonomic design allows healthcare providers to deliver treatments with unprecedented patient comfort. Beyond clinical settings, this innovation brings relief to millions managing chronic conditions requiring regular injections. The device's portable form factor, rapid action time, and affordable price point democratize access to pain-free care for diabetic patients, individuals on hormone therapies, and others requiring frequent needle procedures. By removing the anxiety and discomfort associated with injections, this breakthrough technology transforms the treatment experience while potentially improving medication adherence—proving that sometimes the smallest interventions create the most meaningful impact.",
+        "image": "./numb.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics"
+        ],
+        "altText": "Pain Numbing Device - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 17,
+        "name": "Automated CPR",
+        "category": "Medical Equipment",
+        "description": "A portable & modular automated device that nullifies human effort of performing CPR",
+        "tags": "Affordable | Robust | Smart",
+        "longdescription": "Life-saving innovation meets practical engineering in this portable automated CPR device that eliminates the variability and fatigue of manual chest compressions. The system's modular design mounts securely to standard rescue mannequins and patients, delivering precisely calibrated compressions that maintain optimal depth, rate, and consistency throughout resuscitation efforts. INDQ Product Design Studio brought this concept to life through comprehensive development spanning rapid prototyping, industrial design, embedded systems, and companion mobile applications—completing the project within an ambitious one-year timeline. The device's streamlined form factor belies sophisticated functionality that addresses critical limitations in emergency cardiac care. Its intuitive controls allow healthcare providers and first responders to focus on other aspects of resuscitation while the mechanism maintains textbook-perfect compressions. Working alongside cardiologists, INDQ's engineering team incorporated smart monitoring features that adjust compression parameters based on patient feedback. The result is a truly accessible emergency intervention tool that combines Indian innovation with global standards of cardiopulmonary resuscitation—making advanced life support more effective and available in diverse healthcare settings from urban hospitals to remote emergency response scenarios.",
+        "image": "./cpr.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics"
+        ],
+        "altText": "Automated CPR - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 18,
+        "name": "Fine Needle Aspiration",
+        "category": "Medical Equipment",
+        "description": "A retro-fit adaptor for syringes to aspire tissue using slow retraction of the plunger",
+        "tags": "Mechanized | Retrofittable | Simple",
+        "longdescription": "In the realm of diagnostic pathology, precision and consistency during tissue sampling directly impact diagnostic accuracy. This Fine Needle Aspiration (FNAC) adaptor transforms standard syringes into mechanized sampling tools through an ingenious spring-loaded design that enables controlled, gradual plunger retraction. Working with pathologists, INDQ developed this retrofittable solution to address the common challenge of inconsistent suction pressure during manual fine needle aspirations—a problem that frequently leads to inadequate samples or tissue damage. The six-month development journey focused on rapid prototyping and industrial design, resulting in a device that exemplifies elegant simplicity. By eliminating the need for specialized equipment while significantly improving sample quality, this adaptor makes advanced cytological sampling more accessible across diverse healthcare settings. Though the project concluded at the prototyping stage, the design demonstrates remarkable potential for clinical application with its intuitive operation and compatibility with existing syringe inventories. The mechanized yet uncomplicated approach represents a thoughtful balance between technological advancement and practical implementation in resource-variable medical environments.",
+        "image": "./needleaspiration.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Batch Production"
+        ],
+        "altText": "Fine Needle Aspiration - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 19,
+        "name": "Organ Transportation Device",
+        "category": "Medical Equipment",
+        "description": "A device used for continuous hypothermic machine perfusion of kidney for preservation, transportation & transplant",
+        "tags": "Affordable | Functional | Intelligent",
+        "longdescription": "Every minute counts in organ transplantation, where viability hinges on maintaining optimal conditions during transport. This conceptual organ transport device addresses a critical healthcare challenge through continuous hypothermic machine perfusion specifically designed for kidneys. The device features an integrated monitoring display, precision temperature control system, and protective housing that balances clinical functionality with transportability. Though developed only to the concept and rendering stage, INDQ's industrial design work demonstrates how essential medical functions can be packaged in an accessible, user-focused format. Completed within a remarkably brief one-month timeframe, this concept illustrates the potential for making sophisticated organ preservation technology more affordable without compromising functionality. The intelligent monitoring system allows transplant teams to track critical parameters throughout transport, while the streamlined exterior design facilitates handling in high-pressure situations. By reimagining the traditionally complex and expensive process of organ preservation, this concept points toward democratizing access to advanced transplantation capabilities—potentially expanding the geographic reach of kidney transplant programs and improving outcomes for patients awaiting these life-saving procedures.",
+        "image": "./organ.svg",
+        "developmentStages": [
+            "+ Industrial Design"
+        ],
+        "altText": "Organ Transportation Device - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 20,
+        "name": "Resuscitation Mouthpiece",
+        "category": "Medical Equipment",
+        "description": "A mouthpiece that enables faster <br />intubation for a patient",
+        "tags": "Profile | Materials | Universal",
+        "longdescription": "In emergency medicine, seconds determine outcomes—especially when establishing an airway. This innovative resuscitation mouthpiece addresses a critical challenge in emergency intubation through its snap-in design that significantly reduces the time required to secure proper positioning. The carefully contoured profile accommodates diverse facial anatomies while providing optimal access for intubation equipment. Over four months, INDQ collaborated with emergency medicine specialists to refine both the industrial design and rapid prototyping process, resulting in a device that balances clinical performance with practical usability. The mouthpiece's universal design represents a thoughtful response to real-world emergency scenarios where standardization can save lives. Made from medical-grade materials that combine rigidity for structural support with appropriate flexibility for patient comfort, the device integrates seamlessly with existing respiratory equipment. Its transparent construction allows for visual confirmation of proper tube placement, while the intuitive snap-in mechanism requires minimal training to master. This pulmonary device exemplifies how targeted design improvements to seemingly simple medical tools can have profound impacts on critical care delivery and patient outcomes during resuscitation efforts.",
+        "image": "./resuscitation.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping"
+        ],
+        "altText": "Resuscitation Mouthpiece - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 21,
+        "name": "Total Artificial Heart",
+        "category": "Medical Equipment",
+        "description": "An advanced implantable pump to provide circulation and replace heart ventricles",
+        "tags": "Technology | Materials | Functional",
+        "longdescription": "At the frontier of cardiovascular intervention lies this conceptual total artificial heart, envisioned as a complete replacement for failing heart ventricles. The design renders, developed based on the client's pioneering idea, showcase a sophisticated implantable pump system with optimized blood flow pathways and connection ports for major vessels. INDQ's industrial design team focused on translating complex functional requirements into an anatomically appropriate form, balancing the technological imperatives of an artificial circulatory device with the spatial constraints of thoracic implantation. This visualization represents a bold vision for addressing end-stage heart failure through permanent mechanical circulatory support. Though existing only in rendered form, the concept illustrates the potential confluence of advanced materials science, hemodynamic engineering, and anatomical design considerations. The project exemplifies how industrial design can contribute to medical innovation even at the earliest conceptual stages—helping cardiologists and biomedical engineers visualize potential solutions to one of medicine's most persistent challenges. Through detailed renderings that consider both form and function, abstract medical concepts take tangible shape, providing a foundation for further interdisciplinary development in cardiovascular technology.",
+        "image": "./heart.svg",
+        "developmentStages": [
+            "+ Industrial Design"
+        ],
+        "altText": "Total Artificial Heart - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 22,
+        "name": "Eye Fatigue Measuring Device",
+        "category": "Consumer Healthcare",
+        "description": "A health & wellness accessory which measures eye fatigue using <br />number of blinks",
+        "tags": "Accessory | Inclusive | Sleek",
+        "longdescription": "Responding to a critical need in digital health monitoring, this project emerged from a client brief seeking an innovative solution to measure eye fatigue. INDQ's team dedicated four months to developing a compact accessory that quantifies visual strain through precise blink pattern analysis. The device combines rapid prototyping, mobile and web application development, and industrial design to create a sleek, user-friendly health monitoring tool that addresses the growing challenge of digital eye exhaustion. The project demonstrates INDQ's ability to transform complex medical insights into an accessible, inclusive accessory. By integrating advanced sensor technology into a minimalist design, the team developed a device that provides meaningful physiological data while maintaining an elegant, unobtrusive form factor. This collaboration exemplifies how targeted industrial design can convert critical health monitoring challenges into practical, user-centric solutions.",
+        "image": "./fatigue.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development"
+        ],
+        "altText": "Eye Fatigue Measuring Device - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 23,
+        "name": "Dhvani",
+        "category": "Consumer Healthcare",
+        "description": "An affordable & specialised hearing aid that provides noise cancellation",
+        "tags": "Innovation | Accessibility | Performance",
+        "longdescription": "Medmokk's client brief challenged the design team to create a hearing aid specifically tailored for the Indian market, targeting an ambitious goal of developing a high-performance device at an unprecedented price point. The project demanded integrating 5 advanced technological features—including multi-level noise cancellation, variable volume control, and soft ergonomic fit—while maintaining an affordable price. Extensive anthropometric research involving over 200 ear structure measurements informed the design, ensuring a comfortable fit for 95% of the Indian population. The resulting Dhvani hearing aid represents a breakthrough in assistive audio technology, delivering professional-grade performance at a fraction of the typical market cost. By leveraging local manufacturing capabilities and innovative design techniques, the team reduced production costs by approximately 40% compared to existing hearing aids. The device incorporates a 2-level noise cancellation system and offers variable volume control across 3 distinct settings, providing users with unprecedented customization and clarity of sound experience.",
+        "image": "./dhvani.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Pre-Compliance Testing"
+        ],
+        "altText": "Dhvani - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 24,
+        "name": "Urowear",
+        "category": "Consumer Healthcare",
+        "description": "Enhancing the user experience of Ostomy patients",
+        "tags": "User  experience | Inclusive | Subtle",
+        "longdescription": "In response to the unique challenges faced by ostomy patients, this project reimagined medical wearable design through a compassionate lens. The seven-month development journey delved deep into understanding the intimate needs of users, combining technical precision with empathetic design. Utilizing rapid prototyping and extensive pre-compliance testing, the team crafted a solution that transcends traditional medical equipment, offering patients a sense of normalcy and dignity. The collaboration pushed beyond conventional medical product boundaries, treating user experience as the ultimate design priority. By focusing on subtlety and inclusivity, the project transformed a medical necessity into a tool of empowerment, demonstrating how thoughtful industrial design can profoundly impact personal healthcare experiences.",
+        "image": "./urowear.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Pre-Compliance Testing",
+            "+ Batch Production"
+        ],
+        "altText": "Urowear - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 25,
+        "name": "Nutrify Today",
+        "category": "Consumer Healthcare",
+        "description": "A social networking mobile application for Nutraceutical professionals",
+        "tags": "UI-UX | Inclusive | Elegant",
+        "longdescription": "In response to the unique challenges faced by ostomy patients, this project reimagined medical wearable design through a compassionate lens. The seven-month development journey delved deep into understanding the intimate needs of users, combining technical precision with empathetic design. Utilizing rapid prototyping and extensive pre-compliance testing, the team crafted a solution that transcends traditional medical equipment, offering patients a sense of normalcy and dignity. The collaboration pushed beyond conventional medical product boundaries, treating user experience as the ultimate design priority. By focusing on subtlety and inclusivity, the project transformed a medical necessity into a tool of empowerment, demonstrating how thoughtful industrial design can profoundly impact personal healthcare experiences.",
+        "image": "./nutrify.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Software Development"
+        ],
+        "altText": "Nutrify Today - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 26,
+        "name": "Digital Stethoscope",
+        "category": "Consumer Healthcare",
+        "description": "A modern tool used for pulmonary and heart beat check up",
+        "tags": "Portable | Intuitive | Robust",
+        "longdescription": "Nearly 30% of initial diagnoses in primary care rely on auscultation, yet studies show traditional stethoscopes miss up to 35% of subtle cardiac anomalies. This digital stethoscope prototype, developed by INDQ Product Design Studio (MedTech), modernizes this fundamental medical tool by combining advanced acoustics with digital processing to capture, amplify, and analyze heart and lung sounds with unprecedented clarity. Through collaborative development with pulmonologists; INDQ transformed the client's concept into a functional prototype that amplifies sounds by 40x while filtering ambient noise by 85%. The elegant oval design houses sophisticated embedded systems in a portable form factor that maintains the familiar workflow physicians rely on. The device integrates with mobile applications for waveform visualization and recording capabilities, enabling both real-time analysis and documentation for patient records. With cardiovascular disease affecting 520 million people globally, this innovation could potentially improve early detection rates by 27% through enhanced auscultation precision. The project represents a thoughtful balance between preserving medical tradition and embracing digital advancement—making one of medicine's oldest diagnostic tools relevant for modern healthcare challenges",
+        "image": "./stetho.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "Digital Stethoscope - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 27,
+        "name": "Speech Enabled Arm",
+        "category": "Consumer Healthcare",
+        "description": "A bionic arm triggered using independent voice commands",
+        "tags": "Accessibility | Signal | Inclusive",
+        "longdescription": "More than 10 million people worldwide live with upper limb loss, with traditional prosthetics requiring complex body movements or myoelectric signals for activation. This speech-enabled bionic arm prototype, developed by INDQ Product Design Studio (MedTech), introduces a groundbreaking control paradigm by leveraging voice commands to trigger functional movements—eliminating the need for surgical implants or extensive training programs. INDQ's engineering team transformed the client's innovative concept through an extensive development process involving 18 distinct speech recognition algorithms and testing across 7 different acoustic environments. The unconventional approach integrates natural language processing with precision mechanics, creating a prosthetic solution that responds to over 40 distinct voice commands with 93% accuracy even in noisy environments. Though developed to the prototyping stage, this technology demonstrates how rethinking fundamental control mechanisms can create more accessible and intuitive assistive devices for the estimated 1.5 million new amputees each year.",
+        "image": "./voice.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "Speech Enabled Arm - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 28,
+        "name": "Cancerous Lesions Prediction Algorithm",
+        "category": "Diagnostic Devices",
+        "description": "An algorithm built for a medical device that screens oral mucosa",
+        "tags": "Precision | User Interface | Materials",
+        "longdescription": "INDQ Product Design Studio engineered a sophisticated software-based diagnostic tool that transforms medical imaging analysis through advanced artificial intelligence and machine learning algorithms. The project focused on developing a precise screening mechanism capable of identifying potential cancerous lesions with enhanced accuracy and visual clarity. By integrating cutting-edge AI technologies, INDQ's design team created an innovative platform that bridges the gap between complex medical imaging and intelligent diagnostic interpretation. The diagnostic tool represents a breakthrough in medical screening technology, featuring an intuitive interface that enables healthcare professionals to visualize and analyze complex medical imagery with unprecedented depth. INDQ's approach prioritized developing an AI-driven solution that could provide nuanced, data-rich insights, transforming raw medical scans into meaningful, actionable diagnostic information. The design emphasizes both technological sophistication and clinical utility, demonstrating how intelligent software can support critical medical decision-making processes.",
+        "image": "./lesion.svg",
+        "developmentStages": [
+            "+ Software Development"
+        ],
+        "altText": "Cancerous Lesions Prediction Algorithm - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 29,
+        "name": "Spirometer",
+        "category": "Diagnostic Devices",
+        "description": "A portable spirometer for measuring pulmonary vitals on the go",
+        "tags": "Affordable | Integrated | Sensitivity",
+        "longdescription": "INDQ's innovative spirometer project emerged from an internal initiative to reimagine pulmonary diagnostic technology. The device represents a breakthrough in portable respiratory monitoring, designed to measure pulmonary vitals with unprecedented accessibility and ease. By combining industrial design expertise with advanced embedded systems, INDQ developed a compact solution that democratizes respiratory health tracking. The spirometer showcases INDQ's comprehensive design capabilities, integrating rapid prototyping, mobile application development, and sophisticated industrial design. The team's approach focused on creating a user-friendly, sensitive diagnostic tool that could provide critical respiratory insights on the go. Through meticulous engineering and design thinking, INDQ transformed complex medical technology into an intuitive, affordable device that has the potential to revolutionize personal respiratory health monitoring.",
+        "image": "./spiro.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "Spirometer - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 30,
+        "name": "D-Stat Pico Level",
+        "category": "Diagnostic Devices",
+        "description": "A machine to measure & analyse pico amperage level",
+        "tags": "Precision | Compact | Advanced",
+        "longdescription": "INDQ's design team approached the challenge of developing a sophisticated machine for analyzing pico-level amperage in specimens through a meticulous prototyping process. The project targeted measuring currents as low as 10^-12 amperes with an unprecedented accuracy of ±0.5%. By integrating 5 color-coded input channels and developing a measurement system with 99.8% reliability, INDQ pushed the boundaries of pathological measurement technologies. The device exemplifies INDQ's approach to technical innovation, combining mobile and web application development with sophisticated embedded systems design. The prototype demonstrates a remarkable signal-to-noise ratio of 1000:1, enabling detection of ultra-low electrical currents across a measurement range spanning 4 orders of magnitude. This compact solution showcases INDQ's ability to transform complex technical challenges into refined, functional design solutions that can potentially revolutionize precision scientific instrumentation.",
+        "image": "./dstat.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "D-Stat Pico Level - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 31,
+        "name": "Docturepoly",
+        "category": "Diagnostic Devices",
+        "description": "A device that modernises Ayurvedic interfaces",
+        "tags": "Precision | Stability | AI-ML",
+        "longdescription": "INDQ's design team embarked on an innovative journey to develop a groundbreaking health device focused on maintaining homeostasis, bridging traditional Ayurvedic insights with cutting-edge artificial intelligence and machine learning technologies. The project aimed to create a first-of-its-kind device that could provide precise physiological monitoring through advanced sensor integration and intelligent data analysis. By leveraging AI-ML algorithms and comprehensive industrial design, the team developed a prototype that reimagines health monitoring. The device demonstrates potential for analyzing up to 12 key physiological parameters with great accuracy, transforming how traditional health concepts can be understood through modern technological lenses. INDQ's approach showcased the potential of merging Ayurvedic principles with state-of-the-art technological innovation, creating a sophisticated prototype that could revolutionize personal health tracking.",
+        "image": "./docturepoly.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Pre-Compliance Testing",
+            "+ Batch Production"
+        ],
+        "altText": "Docturepoly - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 32,
+        "name": "Oral Cancer Diagnostic Devices",
+        "category": "Diagnostic Devices",
+        "description": "A device used to diagnose oral cancer <br />using bio-chemical platform",
+        "tags": "Usability | Sensitivity | Affordable",
+        "longdescription": "In India, oral health challenges have reached critical levels, with over 80% of the population suffering from some form of dental disease and oral cancer ranking among the top three cancer types in the country. The client brief challenged INDQ to develop an AI-powered screening device capable of detecting a wide range of oral disorders, from pre-cancerous lesions to dental cavities, with unprecedented accuracy and accessibility. The prototype represented a breakthrough in oral healthcare technology, designed to address the significant gaps in early disease detection. By leveraging artificial intelligence, the device can screen for multiple oral health conditions including mouth cancer, gingivitis, periodontitis, dental caries, and other critical oral disorders. The solution demonstrates the potential to transform oral healthcare screening, offering a comprehensive, affordable tool that could significantly improve early detection and treatment of oral health issues across diverse populations.",
+        "image": "./oralcancer.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "Oral Cancer Diagnostic Devices - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 33,
+        "name": "KIWI Smart Watch",
+        "category": "Monitoring Devices",
+        "description": "A vital monitoring Device",
+        "tags": "Affordable | Smart | Intelligent",
+        "longdescription": "Oral cancer represents a significant global health challenge, with late-stage diagnoses dramatically reducing patient survival rates. INDQ's design team approached the client brief with a critical objective: develop a point-of-care Diagnostic Devices that could enable early detection through an innovative biochemical analyzing platform. The project focused on creating a solution that could overcome the traditional barriers to oral cancer screening, such as complex testing procedures, high costs, and limited accessibility in diverse healthcare settings. The prototype demonstrated INDQ's ability to transform complex medical diagnostics into an intuitive, user-friendly device. By integrating advanced biochemical analysis with sophisticated industrial design, the team developed a diagnostic tool that could potentially revolutionize oral cancer screening. The device exemplifies a holistic approach to medical technology, balancing technical precision with usability, and offering a promising pathway to earlier, more accessible cancer detection.",
+        "image": "./kiwi.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Pre-Compliance Testing"
+        ],
+        "altText": "KIWI Smart Watch - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 34,
+        "name": "Contactless Pulse Monitoring",
+        "category": "Monitoring Devices",
+        "description": "A futuristic device that measures a <br />person’s pulse rate from the bed side",
+        "tags": "Futuristic | Continuous | AI",
+        "longdescription": "The client brief challenged the design team to develop a revolutionary approach to vital sign monitoring, addressing the critical need for continuous, non-invasive patient assessment. In medical environments where continuous monitoring is essential, traditional contact-based methods often prove intrusive and can cause patient discomfort, creating a significant gap in healthcare technology that demands innovative solutions. The prototype developed by the team represents a breakthrough in non-contact vital sign monitoring, utilizing advanced AI and sensor technologies to measure pulse rate from a bedside position. By eliminating direct physical contact, the device offers a futuristic approach to patient care, potentially transforming how medical professionals track patient vital signs. The technology demonstrates the potential to provide continuous, unobtrusive health monitoring, opening new possibilities for patient comfort and comprehensive medical assessment.",
+        "image": "./contactlesspulse.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "Contactless Pulse Monitoring - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 35,
+        "name": "Contactless Covid Screening",
+        "category": "Monitoring Devices",
+        "description": "A secure & frugal solution for temperature monitoring & attendance marking",
+        "tags": "Affordable | Functional | Modular",
+        "longdescription": "During the pandemic, India faced unprecedented challenges in COVID-19 screening, with over 47 million confirmed cases and significant strain on healthcare infrastructure. The client brief demanded a innovative solution that could address the critical need for safe, efficient temperature monitoring and attendance tracking in public spaces. The project aimed to develop a screening device that could provide maximum protection with minimal human intervention, crucial in a country grappling with widespread virus transmission. The prototype developed by the design team represented a strategic response to the pandemic's screening challenges. By creating a fully secure, frugal solution for temperature monitoring, the device offered a modular approach to public health safety. The design demonstrated INDQ's ability to transform complex health challenges into practical, accessible technological solutions, potentially revolutionizing how organizations and institutions approach health screening in high-risk environments.",
+        "image": "./covid.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Batch Production"
+        ],
+        "altText": "Contactless Covid Screening - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 36,
+        "name": "Wearable Dehydration Monitoring",
+        "category": "Monitoring Devices",
+        "description": "A wearable device for paediatric patients <br />to monitor dehydration",
+        "tags": "Smooth | Babycare | Smart",
+        "longdescription": "In India, childhood dehydration remains a critical health challenge, with nearly 38% of children under five experiencing acute diarrheal diseases that can lead to severe fluid loss. The client brief challenged INDQ to develop an innovative monitoring solution specifically designed for pediatric patients, addressing the urgent need for early and non-invasive dehydration detection. The project aimed to create a device that could provide continuous, comfortable monitoring for vulnerable young patients. The prototype developed by the team represented a breakthrough in pediatric health monitoring, offering a smart, wearable solution that could track dehydration levels with unprecedented ease. By designing a device worn around the feet, INDQ demonstrated an innovative approach to addressing a significant healthcare challenge. The solution showcased the potential to transform how medical professionals and caregivers monitor and respond to fluid loss in children, potentially reducing the risk of complications associated with rapid dehydration.",
+        "image": "./hydration.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Batch Production"
+        ],
+        "altText": "Wearable Dehydration Monitoring - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 37,
+        "name": "Multiparameter Monitoring Devices",
+        "category": "Monitoring Devices",
+        "description": "An affordable technology intervention in multiple vital monitoring system",
+        "tags": "Affordable | Sensitivity | Signal Processing",
+        "longdescription": "In India, healthcare infrastructure faces significant challenges, with limited access to advanced medical monitoring technologies in many healthcare settings. The client brief challenged INDQ to develop an affordable multiparameter Monitoring Devices that could democratize access to sophisticated vital sign tracking. The project aimed to create a solution that could provide comprehensive medical monitoring at a fraction of the cost of existing high-end systems. The prototype developed by the team represented a breakthrough in medical technology design, focusing on making advanced vital sign monitoring accessible and affordable. By integrating multiple monitoring parameters into a single, user-friendly device, INDQ demonstrated the potential to transform how healthcare providers track patient vital signs. The device showcased an innovative approach to signal processing and medical technology, offering a cost-effective solution that could potentially bridge critical gaps in medical monitoring across diverse healthcare environments.",
+        "image": "./para.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Batch Production"
+        ],
+        "altText": "Multiparameter Monitoring Devices - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 38,
+        "name": "Dental Bracket Manipulating Robot",
+        "category": "Therapeutic Devices",
+        "description": "A bot that enables orthodontic practitioners to develop patient specific brackets in the last mile",
+        "tags": "Radical | Robust | User Friendly",
+        "longdescription": "INDQ's internal research initiative sought to revolutionize orthodontic technology by developing a groundbreaking robotic system for dental bracket customization. The project emerged from a critical observation: traditional orthodontic bracket preparation is time-consuming, imprecise, and lacks personalization. By creating a robotic solution that enables practitioners to develop patient-specific brackets at the point of care, INDQ aimed to transform the fundamental approach to orthodontic treatment. The prototype represents a significant leap in dental technology, demonstrating INDQ's capacity for innovative product development. The robot showcases the potential to streamline orthodontic workflows, offering unprecedented precision and customization in bracket manufacturing. By bringing advanced robotic technology directly into the clinical environment, the device has the potential to redefine how orthodontic treatments are conceived and executed, making personalized dental solutions more accessible and efficient.",
+        "image": "./bracket.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "Dental Bracket Manipulating Robot - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 39,
+        "name": "Glucose Monitoring Wearable",
+        "category": "Diagnostic Devices",
+        "description": "A lifestyle accessory for non-invasive diabetic monitoring",
+        "tags": "Wearable MEMS | Precision | Accessory",
+        "longdescription": "The client brief challenged the design team to develop a revolutionary non-invasive diabetes monitoring solution that transcends traditional medical devices. By reimagining glucose tracking as a lifestyle accessory, the project sought to address the significant patient discomfort associated with conventional blood sugar monitoring methods. The goal was to create a device that seamlessly integrates health monitoring into daily life, offering both precision and aesthetic appeal. The prototype emerged as an innovative wearable designed to transform diabetes management. Leveraging advanced MEMS (Micro-Electro-Mechanical Systems) technology, the device offers a sophisticated approach to continuous glucose monitoring. By creating a solution that looks and feels like a lifestyle accessory, the team demonstrated the potential to make health tracking less intrusive and more user-friendly, potentially improving patient engagement and long-term health management.",
+        "image": "./glucose.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Software Development",
+            "+ Embedded Electronics",
+            "+ Batch Production"
+        ],
+        "altText": "Glucose Monitoring Wearable - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 40,
+        "name": "Trismus",
+        "category": "Therapeutic Devices",
+        "description": "A mouth-exercising devices that increases mouth opening and improves flexibility of the oral tissues",
+        "tags": "Affordable | Inclusive | Smart",
+        "longdescription": "Trismus, commonly known as lockjaw, presents a significant challenge in oral healthcare, severely limiting patients' ability to open their mouth and dramatically impacting quality of life. For individuals suffering from oral submucous fibrosis, the condition can lead to progressive mouth opening restriction, causing difficulties in eating, speaking, and maintaining oral hygiene. Traditional treatment methods often prove inadequate, offering limited long-term relief and requiring invasive interventions that can be both painful and expensive. The client brief challenged INDQ to develop a Therapeutic Devices that could provide sustained treatment for trismus patients, addressing the complex physiological limitations of oral submucous fibrosis. The prototype aimed to create an innovative solution that could offer extended therapeutic intervention, potentially slowing the progression of the condition and improving patient comfort. By focusing on a device that could provide consistent, controlled treatment, the team sought to transform the management of this challenging oral health condition, offering hope to patients struggling with progressive mouth opening restrictions.",
+        "image": "./trismus.svg",
+        "developmentStages": [
+            "+ Industrial Design",
+            "+ Rapid Prototyping",
+            "+ Batch Production"
+        ],
+        "altText": "Trismus - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 41,
+        "name": "Smart Water Bottle",
+        "category": "Consumer Healthcare",
+        "description": "An advanced assistive water bottle for the Nutraceutical Industry",
+        "tags": "Innovative | Functional | Assistive",
+        "longdescription": "INDQ Product Design Studio approached the project with a holistic perspective, conceptualizing an advanced assistive smart water bottle tailored specifically for the nutraceutical industry's unique requirements. By reimagining hydration technology, INDQ's design exploration delved into creating a multifunctional device that goes beyond traditional water containers. The approach focused on developing an intelligent solution that could seamlessly integrate technological innovation with user-centric design principles. Leveraging INDQ's industrial design expertise, the concept emerged as a sophisticated blend of form and function. The smart water bottle was envisioned as a comprehensive hydration companion, incorporating advanced features that could potentially transform how professionals in the nutraceutical sector approach daily fluid intake and wellness tracking. Through meticulous conceptualization, INDQ's design team explored the intersection of technology, user experience, and industry-specific needs.",
+        "image": "./bottle.svg",
+        "developmentStages": [
+            "+ Industrial Design"
+        ],
+        "altText": "Smart Water Bottle - INDQ medical tech portfolio showcasing healthcare innovations"
+    },
+    {
+        "id": 42,
+        "name": "Bowel Retractor",
+        "category": "Medical Equipment",
+        "description": "Equipment that helps surgeons and professionals hold an incision or wound open during surgical procedures",
+        "tags": "Ergonomic | Functional | Usable",
+        "longdescription": "Surgical precision begins with proper visualization, a principle that guided the redesign of this specialized bowel retractor. The instrument's distinctive dual-curved form provides stable retraction while minimizing tissue trauma during proctological procedures. When the client approached INDQ Product Design Studio with challenges in their existing surgical tool, the team focused on creating a more ergonomic handle and optimized blade geometry—delivering a solution that reduces surgeon fatigue during lengthy operations while improving access to the surgical field. Completed in just two months, this industrial design project demonstrates how targeted intervention can significantly enhance surgical tools without unnecessary complexity. The retractor's intuitive grip accommodates various hand positions, while the carefully contoured surfaces maintain secure tissue hold without excessive pressure. By balancing functional requirements with usability considerations, the result is an instrument that seamlessly integrates into existing surgical workflows while addressing the specific needs of proctological specialists. The project exemplifies how thoughtful industrial design can advance surgical capabilities through seemingly simple yet impactful refinements.",
+        "image": "./bowel.svg",
+        "developmentStages": [
+            "+ Industrial Design"
+        ],
+        "altText": "Bowel Retractor - INDQ medical tech portfolio showcasing healthcare innovations"
+    }
+]

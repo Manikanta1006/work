@@ -1,0 +1,32 @@
+# INDQ Studio — robots.txt
+# https://indq.in/robots.txt
+
+User-agent: *
+Allow: /
+
+# Block admin, API & private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /crs/
+Disallow: /nda/
+Disallow: /*.pdf$
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://indq.in/sitemap.xml
+
+# Major search engines explicitly allowed
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /

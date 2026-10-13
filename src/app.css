@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+  html {
+    font-size: calc(13px + (20 - 13) * ((100vw - 1024px) / (1920 - 1024)));
+  }
+}  
+ 
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: calc(20px + (24 - 20) * ((100vw - 1920px) / (2560 - 1920)));
+  }
+  body {
+  body { 
+    max-width: 1920px;
+    margin: 0 auto !important;
+    background-color: #ffffff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
+    position: relative;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 1920px) {
+  .responsive-large-img {
+    width: 850px;
+    height: 500px;
+    
+  }
+}
+
+@media (min-width: 1920px) {
+  .blog-grid-wrapper {
+    padding-left: 3rem; 
+    padding-right: 3rem;
+  }
+}
+
+.custom-container {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1920px) {
+  .custom-container {
+    width: 100%;
+    max-width: 2300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .responsive-project-img {
+    height: 690px; 
+    max-height: 880px;
+  }
+}  
+
+@media (min-width: 1024px) and (max-width: 1919px) {
+  /* Reduce parent layout padding */
+  .lg\:pl-28 {
+    padding-left: 4rem !important;
+  }
+
+  /* Adjust section offsets to align perfectly with 4rem (64px) left boundary */
+  .lg\:-ml-28 {
+    margin-left: -4rem !important;
+  }
+  
+  .lg\:ml-28 {
+    margin-left: 4rem !important;
+  }
+
+  /* Prevent elements from being pushed off-screen */
+  .lg\:-ml-42 {
+    margin-left: 0 !important;
+  }
+
+  /* Prevent squeezing and save horizontal space for content */
+  .lg\:ml-52 {
+    margin-left: 6rem !important;
+  }
+
+  .lg\:mr-28 {
+    margin-right: 0 !important;
+  }
+
+  .lg\:-ml-5 {
+    margin-left: 0 !important;
+  }
+
+  .lg\:-ml-25 {
+    margin-left: -4rem !important;
+  }
+
+  .lg\:pl-15 {
+    padding-left: 0 !important;
+  }
+
+  .lg\:mr-26 {
+    margin-right: 0 !important;
+  }
+
+  .lg\:mr-15 {
+    margin-right: 0 !important;
+  }
+
+  .lg\:ml-20 {
+    margin-left: 1rem !important;
+  }
+
+  .lg\:-ml-12 {
+    margin-left: -2rem !important;
+  }
+
+  .lg\:mr-17 {
+    margin-right: 0 !important;
+  }
+
+  .lg\:ml-24 {
+    margin-left: 0 !important;
+  }
+
+  /* Prevent believe cards column squeeze */
+  .ml-20 {
+    margin-left: 2rem !important;
+  }
+
+  /* Prevent believe absolute labels from overflowing */
+  .w-135 {
+    width: 25rem !important;
+  }
+  
+  .w-112, .w-108 {
+    width: 22rem !important;
+  }
+}
+}

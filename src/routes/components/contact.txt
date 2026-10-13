@@ -1,0 +1,926 @@
+<script>
+
+    import NavBar from './NavBar.svelte';
+    import { fade } from 'svelte/transition';
+    import GradientText from './gradient_text.svelte';
+    // Active tab state
+    let activeTab = 'none'; // Default to business tab, can be 'business', 'collaborate', or 'career'
+    
+    // Business Inquiry Form Data
+    let businessFormData = {
+      name: '',
+      email: '',
+      contactNumber: '',
+      organizationName: '',
+      website: '',
+      stageOfOrganization: '',
+      projectDescription: '',
+      services: {
+        industrialDesign: false,
+        rapidPrototyping: false,
+        softwareDevelopment: false,
+        embeddedElectronics: false,
+        preComplianceTesting: false,
+        batchProduction: false
+      },
+      projectTimeline: '',
+      referralSource: ''
+    };
+    
+    // Collaboration Form Data
+    let collaborationFormData = {
+      name: '',
+      email: '',
+      contactNumber: '',
+      organizationName: '',
+      website: '',
+      stageOfOrganization: '',
+      natureOfCollaboration: {
+        researchLabs: false,
+        medTechIndustries: false,
+        startupEcosystems: false,
+        consumerElectronics: false,
+        universities: false
+      },
+      referralSource: ''
+    };
+    
+    // Career Form Data
+    let careerFormData = {
+      name: '',
+      email: '',
+      contactNumber: '',
+      organizationName: '',
+      resume: null,
+      portfolio: null,
+      positionOfInterest: '',
+      backgroundExperience: '',
+      referralSource: ''
+    };
+    
+    // Form submission handlers
+    const handleBusinessSubmit = () => {
+      console.log('Business form submitted:', businessFormData);
+      alert('Business Inquiry form submitted successfully!');
+    };
+    
+    const handleCollaborationSubmit = () => {
+      console.log('Collaboration form submitted:', collaborationFormData);
+      alert('Collaboration form submitted successfully!');
+    };
+    
+    const handleCareerSubmit = () => {
+      console.log('Career form submitted:', careerFormData);
+      alert('Career form submitted successfully!');
+    };
+    
+    // Options for dropdown
+    const organizationStages = [
+      'Ideation / Concept',
+      'Seed / Early Stage',
+      'Growth Stage',
+      'Established Business',
+      'Enterprise'
+    ];
+    
+    // Options for referral sources
+    const referralSources = [
+      'Referral',
+      'Social Media',
+      'Website',
+      'Event',
+      'Other'
+    ];
+    
+    // Options for timeline
+    const timelineOptions = [
+      '3-6 Months',
+      '6-12 Months'
+    ];
+    
+    // Position options
+    const positionOptions = [
+      'Permanent',
+      'Part-time',
+      'Freelance',
+      'Other'
+    ];
+    
+    // Resume error state
+    let resumeError = 'Check file size';
+
+    // Handle file inputs
+    const handleResumeChange = (event) => {
+      const file = event.target.files[0];
+      if (file && file.size <= 5 * 1024 * 1024) { // 5MB limit
+        careerFormData.resume = file;
+        resumeError = '';
+      } else {
+        resumeError = 'Resume file size must be less than 5MB';
+        event.target.value = '';
+      }
+    };
+    
+    const handlePortfolioChange = (event) => {
+      const file = event.target.files[0];
+      careerFormData.portfolio = file;
+    };
+    
+  </script>
+  <NavBar />
+  <div class=" flex flex-col items-center justify-center px-4 py-16 bg-gray-50">
+    <div class="w-full max-w-4xl">
+        <!-- Heading section -->
+        <div class="pt-25 pb-10 text-center mb-16 text-left">
+            <h1 class="text-12xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                Let's build something 
+                <br>
+                meaningful &amp;
+                <br>
+                impactful together
+                <br><GradientText/>
+            </h1>
+        </div>
+    </div>
+</div>
+        
+        
+  <div class="bg-white min-h-screen p-6 flex flex-col items-center justify-center">
+    <div class="max-w-3xl ">
+      <!-- Form Selection Cards -->
+      <div class="flex justify-between max-w-4xl gap-4 mx-2 mb-8">
+        
+      <!-- Business Inquiry Card -->
+      
+      <button 
+            type="button"
+            class=" rounded-lg p-6 flex flex-col items-center w-75 h-40 cursor-pointer relative {activeTab === 'business' ? 'active-card' : 'hover:bg-gray-50'}"
+            on:click={() => activeTab = 'business'}
+            on:keydown={e => e.key === 'Enter' && (activeTab = 'business')}
+            aria-label="Switch to business enquiry form"
+            aria-pressed={activeTab === 'business'}>
+          
+            <div class="flex flex-col items-center justify-center h-screen">
+              <div class="mb-4">
+                <img src='./business.svg' alt="Custom Icon" class="h-10 w-10" />
+              </div>
+              <div class="text-lg text-center font-medium text-black">Business Enquiry</div>
+          </div>
+
+        </button>
+
+      <!-- Collaborate Card -->
+        <button 
+          type="button"
+          class=" rounded-lg p-6 flex flex-col items-center w-75 h-40 cursor-pointer relative {activeTab === 'collaborate' ? 'active-card' : 'hover:bg-gray-50'}"
+          on:click={() => activeTab = 'collaborate'}
+          aria-label="Switch to collaboration form">
+
+          <div class="flex flex-col items-center justify-center h-screen">
+            <div class="mb-4">
+              <img src='./collab.svg' alt="Custom Icon" class="h-10 w-10" />
+            </div>
+            <div class="text-lg text-center font-medium text-black">Collaborate</div>
+          </div>
+        </button>
+    
+      <!-- Career Card -->
+        <button 
+          type="button"
+          class=" rounded-lg p-6 flex flex-col items-center w-75 h-40 cursor-pointer relative {activeTab === 'career' ? 'active-card' : 'hover:bg-gray-50'}"
+          on:click={() => activeTab = 'career'}
+          aria-label="Switch to career form">
+          
+          <div class="flex flex-col items-center justify-center h-screen">
+            <div class="mb-4">
+              <img src='./career.svg' alt="Custom Icon" class="h-10 w-10" />
+            </div>
+            <div class="text-lg text-center font-medium text-black">Career</div>
+          </div>
+        </button>
+      </div>
+
+      <!-- Tab-specific taglines -->
+      {#if activeTab === 'business'}
+      <p class="text-black text-left mb-8 text-lg font-semibold  ">Let's bring your vision to life with our expertise in design, prototyping, and production.</p>
+      {:else if activeTab === 'collaborate'}
+      <p class="text-black text-left mb-8 text-lg font-semibold">Partner with us to explore new possibilities and push the boundaries of design and technology.</p>
+      {:else if activeTab === 'career'}
+      <p class="text-black text-left mb-8 text-lg font-semibold">Join our team and shape the future of innovation with creativity and passion.</p>
+      {/if}
+      
+      <!-- Business Inquiry Form -->
+      {#if activeTab === 'business'}
+      <form on:submit|preventDefault={handleBusinessSubmit} class="space-y-6">
+        <!-- Personal Information -->
+        <div class="space-y-4">
+          <div>
+            <label for="business-name" class="block text-lg font-semibold text-black">Name*</label>
+            <input 
+              type="text" 
+              id="business-name" 
+              bind:value={businessFormData.name} 
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+          </div>
+          
+          <div>
+            <label for="business-email" class="block text-lg font-semibold text-black">Official Email ID*</label>
+            <input 
+              type="email" 
+              id="business-email" 
+              bind:value={businessFormData.email} 
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+          </div>
+          
+          <div>
+            <label for="business-contact" class="block text-lg font-semibold text-black">Contact Number*</label>
+            <input 
+              type="tel" 
+              id="business-contact" 
+              bind:value={businessFormData.contactNumber} 
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+          </div>
+          
+          <div>
+            <label for="business-org" class="block text-lg font-semibold text-black">Organization Name*</label>
+            <input 
+              type="text" 
+              id="business-org" 
+              bind:value={businessFormData.organizationName} 
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+          </div>
+          
+          <div>
+            <label for="business-website" class="block text-lg font-semibold text-black">Website (if any)</label>
+            <input 
+              type="url" 
+              id="business-website" 
+              bind:value={businessFormData.website}
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+          </div>
+          
+          <div>
+            <label for="business-stage" class="block text-lg font-semibold text-black">Stage of Your Organization*</label>
+            <select 
+              id="business-stage" 
+              bind:value={businessFormData.stageOfOrganization} 
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            >
+              <option value="" disabled selected>Select</option>
+              {#each organizationStages as stage}
+                <option value={stage}>{stage}</option>
+              {/each}
+            </select>
+          </div>
+          
+          <div>
+            <label for="business-description" class="block text-lg font-semibold text-black">Tell us briefly about your project. *</label>
+            <textarea 
+              id="business-description" 
+              bind:value={businessFormData.projectDescription} 
+              rows="4"
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+              placeholder="Write..."
+            ></textarea>
+          </div>
+        </div>
+        
+        <!-- Services -->
+        <div>
+          <p class="block text-lg font-semibold text-black mb-2">What services do you need? *</p>
+          <div class="space-y-2">
+            <div class="flex items-start">
+              <input 
+                type="checkbox" 
+                id="industrialDesign" 
+                bind:checked={businessFormData.services.industrialDesign}
+                class="mt-1 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="industrialDesign" class="ml-2 block text-sm text-black">
+                Industrial Design (Product Development, Form Generation, 3D Visualization, Ergonomics)
+              </label>
+            </div>
+            
+            <div class="flex items-start">
+              <input 
+                type="checkbox" 
+                id="rapidPrototyping" 
+                bind:checked={businessFormData.services.rapidPrototyping}
+                class="mt-1 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="rapidPrototyping" class="ml-2 block text-sm text-black">
+                Rapid Prototyping (Quick Iteration, Functional Models, 3D Printing, CNC Machining, Refinement)
+              </label>
+            </div>
+            
+            <div class="flex items-start">
+              <input 
+                type="checkbox" 
+                id="softwareDevelopment" 
+                bind:checked={businessFormData.services.softwareDevelopment}
+                class="mt-1 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="softwareDevelopment" class="ml-2 block text-sm text-black">
+                Software Development (Mobile Applications, Web & Mobile, Cloud Solutions, AI ML Integration)
+              </label>
+            </div>
+            
+            <div class="flex items-start">
+              <input 
+                type="checkbox" 
+                id="embeddedElectronics" 
+                bind:checked={businessFormData.services.embeddedElectronics}
+                class="mt-1 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="embeddedElectronics" class="ml-2 block text-sm text-black">
+                Embedded Electronics (IoT Solutions, Circuit Design, Firmware Development, Sensor Integration)
+              </label>
+            </div>
+            
+            <div class="flex items-start">
+              <input 
+                type="checkbox" 
+                id="preComplianceTesting" 
+                bind:checked={businessFormData.services.preComplianceTesting}
+                class="mt-1 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="preComplianceTesting" class="ml-2 block text-sm text-black">
+                Pre-Compliance Testing (Regulatory Standards, Safety Testing, Certification Readiness, Debugging)
+              </label>
+            </div>
+            
+            <div class="flex items-start">
+              <input 
+                type="checkbox" 
+                id="batchProduction" 
+                bind:checked={businessFormData.services.batchProduction}
+                class="mt-1 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="batchProduction" class="ml-2 block text-sm text-black">
+                Batch Production (Small-Scale Manufacturing, Quality Assurance, Assembly, Market-Ready Products)
+              </label>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project Timeline -->
+        <div>
+          <p class="block text-lg font-semibold text-black mb-2">Project Timeline*</p>
+          <div class="space-y-2">
+            {#each timelineOptions as timeline, i}
+              <div class="flex items-center">
+                <input 
+                  type="radio" 
+                  id={`timeline${i}`} 
+                  name="businessProjectTimeline" 
+                  value={timeline}
+                  bind:group={businessFormData.projectTimeline}
+                  required
+                  class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300"
+                />
+                <label for={`timeline${i}`} class="ml-2 block text-sm text-black">{timeline}</label>
+              </div>
+            {/each}
+          </div>
+        </div>
+        
+        <!-- How did you find us -->
+        <div>
+          <p class="block text-lg font-semibold text-black mb-2">How did you find us?*</p>
+          <div class="space-y-2">
+            {#each referralSources as source, i}
+              <div class="flex items-center">
+                <input 
+                  type="radio" 
+                  id={`business-source${i}`} 
+                  name="businessReferralSource" 
+                  value={source}
+                  bind:group={businessFormData.referralSource}
+                  required
+                  class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300"
+                />
+                <label for={`business-source${i}`} class="ml-2 block text-sm text-black">{source}</label>
+              </div>
+            {/each}
+          </div>
+        </div>
+        
+        <!-- Submit Button -->
+        <div>
+          <button 
+            type="submit" 
+            class="w-28 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-lg font-semibold text-black diagonal-gradient hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500">
+
+            Submit
+          </button>
+        </div>
+      </form>
+      {/if}
+      
+      <!-- Collaboration Form -->
+      {#if activeTab === 'collaborate'}
+      <form on:submit|preventDefault={handleCollaborationSubmit} class="space-y-6">
+        <!-- Personal Information -->
+        <div class="space-y-4">
+          <div>
+            <label for="collab-name" class="block text-lg font-semibold text-black">Name*</label>
+            <input 
+              type="text" 
+              id="collab-name" 
+              bind:value={collaborationFormData.name} 
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+          </div>
+          
+          <div>
+            <label for="collab-email" class="block text-lg font-semibold text-black">Official Email ID*</label>
+            <input 
+              type="email" 
+              id="collab-email" 
+              bind:value={collaborationFormData.email} 
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+          </div>
+          
+          <div>
+            <label for="collab-contact" class="block text-lg font-semibold text-black">Contact Number*</label>
+            <input 
+              type="tel" 
+              id="collab-contact" 
+              bind:value={collaborationFormData.contactNumber} 
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+          </div>
+          
+          <div>
+            <label for="collab-org" class="block text-lg font-semibold text-black">Organization Name*</label>
+            <input 
+              type="text" 
+              id="collab-org" 
+              bind:value={collaborationFormData.organizationName} 
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+          </div>
+          
+          <div>
+            <label for="collab-website" class="block text-lg font-semibold text-black">Website (if any)</label>
+            <input 
+              type="url" 
+              id="collab-website" 
+              bind:value={collaborationFormData.website}
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+          </div>
+          
+          <div>
+            <label for="collab-stage" class="block text-lg font-semibold text-black">Stage of Your Organization*</label>
+            <select 
+              id="collab-stage" 
+              bind:value={collaborationFormData.stageOfOrganization} 
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            >
+              <option value="" disabled selected>Select</option>
+              {#each organizationStages as stage}
+                <option value={stage}>{stage}</option>
+              {/each}
+            </select>
+          </div>
+        </div>
+        
+        <!-- Nature of Collaboration -->
+        <div>
+          <p class="block text-lg font-semibold text-black mb-2">Nature of Collaboration*</p>
+          <div class="space-y-2">
+            <div class="flex items-start">
+              <input 
+                type="checkbox" 
+                id="researchLabs" 
+                bind:checked={collaborationFormData.natureOfCollaboration.researchLabs}
+                class="mt-1 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="researchLabs" class="ml-2 block text-sm text-black">
+                Research Labs
+              </label>
+            </div>
+            
+            <div class="flex items-start">
+              <input 
+                type="checkbox" 
+                id="medTechIndustries" 
+                bind:checked={collaborationFormData.natureOfCollaboration.medTechIndustries}
+                class="mt-1 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="medTechIndustries" class="ml-2 block text-sm text-black">
+                MedTech Industries
+              </label>
+            </div>
+            
+            <div class="flex items-start">
+              <input 
+                type="checkbox" 
+                id="startupEcosystems" 
+                bind:checked={collaborationFormData.natureOfCollaboration.startupEcosystems}
+                class="mt-1 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="startupEcosystems" class="ml-2 block text-sm text-black">
+                Startup Ecosystems
+              </label>
+            </div>
+            
+            <div class="flex items-start">
+              <input 
+                type="checkbox" 
+                id="consumerElectronics" 
+                bind:checked={collaborationFormData.natureOfCollaboration.consumerElectronics}
+                class="mt-1 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="consumerElectronics" class="ml-2 block text-sm text-black">
+                Consumer Electronics
+              </label>
+            </div>
+            
+            <div class="flex items-start">
+              <input 
+                type="checkbox" 
+                id="universities" 
+                bind:checked={collaborationFormData.natureOfCollaboration.universities}
+                class="mt-1 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="universities" class="ml-2 block text-sm text-black">
+                Universities
+              </label>
+            </div>
+          </div>
+        </div>
+        
+        <!-- How did you find us -->
+        <div>
+          <p class="block text-lg font-semibold text-black mb-2">How did you find us?*</p>
+          <div class="space-y-2">
+            {#each referralSources as source, i}
+              <div class="flex items-center">
+                <input 
+                  type="radio" 
+                  id={`collab-source${i}`} 
+                  name="collabReferralSource" 
+                  value={source}
+                  bind:group={collaborationFormData.referralSource}
+                  required
+                  class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300"
+                />
+                <label for={`collab-source${i}`} class="ml-2 block text-sm text-black">{source}</label>
+              </div>
+            {/each}
+          </div>
+        </div>
+        
+        <!-- Submit Button -->
+        <div>
+          <button 
+            type="submit" 
+            class="w-28 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-lg font-semibold text-black diagonal-gradient hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500">
+
+            Submit
+          </button>
+        </div>
+      </form>
+      {/if}
+      
+      {#if activeTab === 'career'}
+    <form on:submit|preventDefault={handleCareerSubmit} class="space-y-6">
+        <!-- Personal Information -->
+        <div class="space-y-4">
+            <div>
+            <label for="career-name" class="block text-lg font-semibold text-black">Name*</label>
+            <input 
+                type="text" 
+                id="career-name" 
+                bind:value={careerFormData.name} 
+                required
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+            </div>
+            
+            <div>
+            <label for="career-email" class="block text-lg font-semibold text-black">Official Email ID*</label>
+            <input 
+                type="email" 
+                id="career-email" 
+                bind:value={careerFormData.email} 
+                required
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+            </div>
+            
+            <div>
+            <label for="career-contact" class="block text-lg font-semibold text-black">Contact Number*</label>
+            <input 
+                type="tel" 
+                id="career-contact" 
+                bind:value={careerFormData.contactNumber} 
+                required
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+            </div>
+            
+            <div>
+            <label for="career-org" class="block text-lg font-semibold text-black">Organization Name*</label>
+            <input 
+                type="text" 
+                id="career-org" 
+                bind:value={careerFormData.organizationName} 
+                required
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+            </div>
+            
+            <div>
+            <label for="resume" class="block text-lg font-semibold text-black">Resume (Less than 5 MB)</label>
+            <div class="relative mt-1">
+                <input 
+                type="file" 
+                id="resume" 
+                on:change={handleResumeChange}
+                accept=".pdf,.doc,.docx"
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                />
+                <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd" />
+                </svg>
+                </div>
+            </div>
+            {#if resumeError}
+                <p class="mt-1 text-sm text-red-600">{resumeError}</p>
+            {/if}
+            {#if careerFormData.resume}
+                <p class="mt-1 text-sm text-green-600">File selected: {careerFormData.resume.name}</p>
+            {/if}
+            </div>
+        </div>
+
+        <!-- Position Details -->
+        <div class="space-y-4">
+            <h3 class="text-lg font-medium text-black">Position Details</h3>
+            
+            <div>
+            <label for="career-position" class="block text-lg font-semibold text-black">Position Applied For*</label>
+            <select 
+                id="career-position" 
+                bind:value={careerFormData.position} 
+                required
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            >
+                <option value="" disabled selected>Select a position</option>
+                <option value="software-engineer">Software Engineer</option>
+                <option value="data-scientist">Data Scientist</option>
+                <option value="product-manager">Product Manager</option>
+                <option value="ux-designer">UX Designer</option>
+                <option value="other">Other</option>
+            </select>
+            </div>
+            
+            {#if careerFormData.position === 'other'}
+            <div>
+                <label for="career-other-position" class="block text-lg font-semibold text-black">Specify Position*</label>
+                <input 
+                type="text" 
+                id="career-other-position" 
+                bind:value={careerFormData.otherPosition} 
+                required
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                />
+            </div>
+            {/if}
+            
+            <div>
+            <label for="career-experience" class="block text-lg font-semibold text-black">Years of Experience*</label>
+            <input 
+                type="number" 
+                id="career-experience" 
+                bind:value={careerFormData.experience} 
+                min="0"
+                step="0.5"
+                required
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+            </div>
+            
+            <div>
+            <label for="career-skills" class="block text-lg font-semibold text-black">Key Skills*</label>
+            <textarea 
+                id="career-skills" 
+                bind:value={careerFormData.skills} 
+                required
+                rows="3"
+                placeholder="List your key skills separated by commas"
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            ></textarea>
+            </div>
+            
+            <div>
+            <label for="career-notice-period" class="block text-lg font-semibold text-black">Notice Period (in days)*</label>
+            <input 
+                type="number" 
+                id="career-notice-period" 
+                bind:value={careerFormData.noticePeriod} 
+                min="0"
+                required
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            />
+            </div>
+            
+            <div>
+            <label for="career-cover-letter" class="block text-lg font-semibold text-black">Cover Letter</label>
+            <textarea 
+                id="career-cover-letter" 
+                bind:value={careerFormData.coverLetter} 
+                rows="5"
+                placeholder="Tell us why you're interested in this position and what you can bring to our team"
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            ></textarea>
+            </div>
+        </div>
+        
+        <!-- Additional Information -->
+        <div class="space-y-4">
+            <h3 class="text-lg font-medium text-black">Additional Information</h3>
+            
+            <div>
+            <label for="career-source" class="block text-lg font-semibold text-black">How did you hear about us?*</label>
+            <select 
+                id="career-source" 
+                bind:value={careerFormData.source} 
+                required
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+            >
+                <option value="" disabled selected>Select an option</option>
+                <option value="job-portal">Job Portal</option>
+                <option value="company-website">Company Website</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="referral">Employee Referral</option>
+                <option value="other">Other</option>
+            </select>
+            </div>
+            
+            {#if careerFormData.source === 'referral'}
+            <div>
+                <label for="career-referral" class="block text-lg font-semibold text-black">Referred by (Employee Name)*</label>
+                <input 
+                type="text" 
+                id="career-referral" 
+                bind:value={careerFormData.referralName} 
+                required
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                />
+            </div>
+            {/if}
+            
+            {#if careerFormData.source === 'other'}
+            <div>
+                <label for="career-other-source" class="block text-lg font-semibold text-black">Please specify*</label>
+                <input 
+                type="text" 
+                id="career-other-source" 
+                bind:value={careerFormData.otherSource} 
+                required
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-black bg-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                />
+            </div>
+            {/if}
+            
+            <div>
+            <label class="block text-lg font-semibold text-black">Are you willing to relocate if needed?*</label>
+            <div class="mt-2 space-x-4 flex items-center">
+                <label class="inline-flex items-center">
+                <input 
+                    type="radio" 
+                    name="relocation" 
+                    value="yes" 
+                    bind:group={careerFormData.willingToRelocate} 
+                    required
+                    class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                />
+                <span class="ml-2 text-sm text-black">Yes</span>
+                </label>
+                <label class="inline-flex items-center">
+                <input 
+                    type="radio" 
+                    name="relocation" 
+                    value="no" 
+                    bind:group={careerFormData.willingToRelocate} 
+                    class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                />
+                <span class="ml-2 text-sm text-black">No</span>
+                </label>
+            </div>
+            </div>
+            
+            <div>
+            <div class="flex items-start">
+                <div class="flex items-center h-5">
+                <input 
+                    id="privacy-policy" 
+                    name="privacy-policy" 
+                    type="checkbox" 
+                    bind:checked={careerFormData.privacyConsent}
+                    required
+                    class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"
+                />
+                </div>
+                <div class="ml-3 text-sm">
+                <label for="privacy-policy" class="font-medium text-black">Privacy Policy Consent*</label>
+                <p class="text-gray-500">I consent to the processing of my personal data according to the company's privacy policy.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div>
+            <button 
+              type="submit" 
+              class="w-28 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-lg font-semibold text-black diagonal-gradient hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500">
+              Submit
+            </button>
+          </div>
+        </form>
+        {/if}
+    </div>
+</div>
+
+<style>
+    .diagonal-gradient {
+      background: linear-gradient(135deg, #B9DFF1, #F3C9BD, #F7E6A7);
+    }
+
+    .active-card {
+  position: relative;
+  border: none !important;
+  z-index: 1;}
+    .active-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('./border.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  padding: 0;
+}
+  </style>
+        <!-- Submit Button -->
+        <!-- <div class="pt-4">
+            <button 
+            type="submit" 
+            class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-lg font-semibold text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            disabled={isSubmitting}>
+
+            {#if isSubmitting}
+                <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                Submitting...
+            {:else}
+                Submit Application
+            {/if}
+            </button>
+        </div>
+        
+        {#if formSubmissionError}
+            <div class="p-4 mt-4 bg-red-100 border border-red-400 text-red-700 rounded">
+            <p>{formSubmissionError}</p>
+            </div>
+        {/if}
+        
+        {#if formSubmissionSuccess}
+            <div class="p-4 mt-4 bg-green-100 border border-green-400 text-green-700 rounded">
+            <p>Your application has been submitted successfully! We will contact you shortly.</p>
+            </div>
+        {/if}
+        </form>
+        {/if}
+            </div>
+        </div>
+        
+        class="w-28 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-lg font-semibold text-white bg-rose-500 hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500">-->

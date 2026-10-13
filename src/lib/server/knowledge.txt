@@ -1,0 +1,327 @@
+INDQ STUDIO — WEBSITE KNOWLEDGE BASE
+(Source of truth for the website assistant. Plain facts only.)
+
+====================================================================
+COMPANY OVERVIEW
+====================================================================
+INDQ Studio (INDQ = "Innovation. Design. Quotient.") is a human-centered
+MedTech product design studio based in India. INDQ designs and develops
+medical devices and connected health products end to end — from early
+scientific research through to pre-production and manufacturing.
+
+INDQ is a multidisciplinary team of Industrial Designers, Biomedical
+Engineers, Hardware & Software Engineers, Doctors, and Manufacturing &
+Regulatory Consultants. The studio works across Medical Electronics,
+Medical Robotics, AI/ML-intensive products for Diagnostics & Therapeutics,
+Industry 4.0, and Consumer Electronics.
+
+Tagline lines used on the site: "Shape possibilities with us!" and
+"Shaping Possibilities." The design philosophy keeps minimalism at its core.
+
+Vision: Pioneering smart product solutions that integrate technology with
+everyday needs, making advanced design accessible across industries worldwide.
+
+====================================================================
+TRACK RECORD / NUMBERS
+====================================================================
+- 75+ impactful MedTech innovations developed
+- ~36+ IPRs (intellectual property rights) generated
+- 70+ projects
+- 50+ clients
+- 18+ sectors
+- 15+ awards
+Fields of contribution include Neurosurgery, Cardiac Care, Nutraceuticals,
+respiratory care, oral health, maternal care, and diagnostics.
+
+====================================================================
+CERTIFICATIONS & REGISTRATIONS
+====================================================================
+- ISO 13485:2016 certified company (quality management for medical devices)
+- Supporter of the Make in India initiative
+- Registered MSME (Micro, Small and Medium Enterprises), India
+- DPIIT Recognized Startup by the Government of India
+INDQ has experience aligning designs with CE, US FDA, and other
+international regulatory requirements.
+
+====================================================================
+STUDIO / LOCATION
+====================================================================
+Andhra Pradesh MedTech Zone Campus (AMTZ)
+Visakhapatnam, Andhra Pradesh - 530031, India
+Google Maps: https://g.co/kgs/n2cKFrq
+
+====================================================================
+CONTACT
+====================================================================
+- Start a project / any enquiry: https://www.indq.in/crs
+- Website: https://www.indq.in
+- LinkedIn: https://www.linkedin.com/company/indq/
+- Facebook: https://www.facebook.com/indq.in/
+- Instagram: https://www.instagram.com/indq_studio/
+Do not give out email addresses or any other contact link. The ONLY link you
+give for getting in touch is https://www.indq.in/crs
+
+====================================================================
+SERVICES
+====================================================================
+INDQ offers six core services. To discuss any of these for a project, or to
+get started, share your requirements at https://www.indq.in/crs
+(the Customer Requirement Specification form).
+
+1. Industrial Design
+   Product development, form generation, 3D visualization, and ergonomics.
+   Leveraging AI and machine learning to create intelligent automation,
+   predictive analytics, and innovative tech solutions.
+
+2. Rapid Prototyping
+   Quick iteration, functional models, 3D printing, CNC machining, and
+   refinement. Advanced prototyping to bring ideas to life with seamless
+   design iterations and functionality testing.
+
+3. Software Development
+   Mobile applications, web & mobile, cloud solutions, and AI/ML
+   integration. Robust, scalable software from embedded systems to
+   AI-driven applications.
+
+4. Embedded Electronics
+   IoT solutions, circuit/PCB design, firmware development, and sensor
+   integration. Embedded systems optimized for efficiency, power
+   consumption, and real-world performance.
+
+5. Pre-Compliance Testing
+   Regulatory standards, safety testing, certification readiness, and
+   debugging. Thorough pre-compliance testing to prevent certification
+   failures.
+
+6. Production
+   Scalable, high-precision manufacturing with quality assurance.
+   Small-scale / batch manufacturing, assembly, and market-ready products.
+
+====================================================================
+DESIGN PROCESS  (Discover -> Develop -> Deliver)
+====================================================================
+DISCOVER
+- Context Research (checks actionability): ethnography, task flow & error
+  analysis, behaviour & cognition, competitive study.
+- Technological Research (checks feasibility): possible technologies,
+  advancements, algorithms, mechanisms.
+- User Needs Mapping (checks desirability): stakeholder interviews,
+  empathy mapping, value proposition mapping.
+
+DEVELOP
+- Proof of Concept (checks functionality): core features, unique selling
+  proposition, embedded systems.
+- Functional Prototype (checks viability): product conceptualisation and
+  visualisation, rapid prototyping, minimum viable product, ergonomics.
+- Advanced Prototype (checks customisability): user-centred design, PCB
+  customisation, software integration, branding & story.
+
+DELIVER
+- Production Ready (checks manufacturability): design for assembly, design
+  for manufacturing, process optimisation, cost reduction, batch
+  production, packaging.
+- Design for Mass Manufacturing (checks scalability): material selection,
+  industrial process selection, packaging.
+- Pre-Compliance & Testing (checks reliability): pre-compliance testing,
+  functional testing, certification alignment (CE, FDA, etc.), risk
+  analysis, documentation for QA/QC.
+
+====================================================================
+WHY CHOOSE INDQ
+====================================================================
+- Expertise & Experience: years of dedicated MedTech innovation work; a
+  broad portfolio of medical devices, AI-driven diagnostics, and
+  healthcare solutions.
+- Integrated Collaboration: works closely with healthcare professionals,
+  researchers, and industry partners to address real clinical needs.
+- Regulatory Excellence: expertise in FDA, CE, and international
+  regulatory requirements.
+- Impact-Driven Approach: every innovation is measured by its effect on
+  patient outcomes, operational efficiency, and cost-effectiveness.
+
+====================================================================
+WORKING WITH INDQ (ENGAGEMENT)
+====================================================================
+To start a project, discuss services, collaborate, or ask about careers,
+use the Customer Requirement Specification (CRS) form at
+https://www.indq.in/crs — fill in your project details and INDQ generates
+a CRS document and follows up. This is the only way to get in touch.
+The CRS form asks for: project title, description, objectives and goals,
+project type, technology domain, tools, deliverables, timeline,
+milestones, point of contact, stakeholders, existing solutions,
+acceptance criteria, plus your name and email.
+
+Organization stages listed: Ideation / Concept; Seed / Early Stage;
+Growth Stage; Established Business; Enterprise.
+Typical project timeline options: 3-6 months, 6-12 months.
+
+INDQ does not publish fixed prices. Cost and timeline depend on the
+project scope and are discussed after an enquiry. Do not quote or
+estimate prices.
+
+====================================================================
+EXPANSION AREAS (beyond healthcare)
+====================================================================
+Research Labs, MedTech Industries, Startup Ecosystems, Consumer
+Electronics, and Universities.
+
+====================================================================
+RELATED VENTURES
+====================================================================
+- Olemus (https://olemus.indq.in/) — point-of-care device with an
+  integrated surface plasmon resonance sensor that detects a wide range
+  of biological components quickly; combined with ECG for foolproof MI
+  (myocardial infarction) detection.
+- Dentobot (https://dentobot.indq.in/) — custom orthodontic dental
+  braces made to each patient's anatomy, with roughly one-day turnaround
+  from patient details to bracket set dispatch.
+- Little MoM (https://littlemom.indq.in/) — breastfeeding essentials such
+  as breast pumps, nipple creams, and heat pads.
+- Smile Guide (https://smileguide.in/) — a connected dental ecosystem
+  with communication, 3D modeling, and centralized case tracking across
+  doctors, patients, manufacturers, and operators.
+
+====================================================================
+SELECTED PROJECTS / PORTFOLIO  (page: https://www.indq.in/work)
+====================================================================
+Project categories on the Work page: Consumer Healthcare, Therapeutic
+Devices, Medical Equipment, Preliminary Screening, Diagnostic Devices,
+Monitoring Devices.
+
+- Modernized Hospital Bed (Medical Equipment) — revolutionary modular bed
+  system; custom transition mechanisms, integrated hardware, and intuitive
+  control interfaces for healthcare providers.
+- Olemus (Diagnostic Devices) — point-of-care MI monitoring combining ECG
+  with multi-marker biomarker detection.
+- Malnutrition Screening Device (Diagnostic Devices) — detects iodine
+  levels and haemoglobin concentration in a single portable device.
+- Kidney Function Test (Diagnostic Devices) — paper-strip-based reader for
+  rapid urine-sample kidney function assessment.
+- Nebiro (Therapeutic Devices) — combined diagnostic + therapeutic
+  respiratory device for chronic COPD and asthma patients, with a
+  companion mobile app.
+- Thyrolemus (Diagnostic Devices) — portable point-of-care device for
+  rapid thyroid testing.
+- NerveVue (Preliminary Screening) — non-invasive early peripheral artery
+  disease screening device.
+- Smart Colposcopy (Medical Equipment) — ergonomic head-mounted colposcopy
+  platform with enhanced depth-perception imaging for AI/ML interpretation.
+- Taparch (Consumer Healthcare) — smart footwear with obstacle sensors and
+  haptic feedback for people with visual impairment; an INDQ in-house
+  innovation taken from concept to production.
+- Simple Bionic (Consumer Healthcare) — affordable prosthetic hand with
+  multifunctional grip and a detachable wrist mechanism; developed in
+  collaboration with AMTZ.
+- Neuro Surgical Optics (Medical Equipment) — universal, cost-effective
+  mechanized accessory for existing neurosurgical optical instruments.
+- Jananya (Medical Equipment) — non-invasive, portable maternal care
+  monitoring.
+- Digital Torquing Tool (Medical Equipment) — lets orthodontists measure
+  archwire torque; hardware plus smartphone integration.
+- Oral Screening Device (Therapeutic Devices) — AI-powered screening for
+  pre-cancerous lesions, gum disease, caries, and other oral disorders.
+- The Beat (Consumer Healthcare) — at-home fetal health monitoring system
+  for the prenatal stage.
+- Pain Numbing Device (Medical Equipment) — coin-sized probe that numbs
+  the skin surface for seconds before an injection or blood draw.
+- Automated CPR (Medical Equipment) — portable, modular device delivering
+  consistent automated chest compressions.
+- Fine Needle Aspiration adaptor (Medical Equipment) — spring-loaded
+  retrofit adaptor turning standard syringes into controlled aspiration
+  tools.
+- Organ Transportation Device (Medical Equipment) — concept for continuous
+  hypothermic machine perfusion of kidneys for preservation and transport.
+- Resuscitation Mouthpiece (Medical Equipment) — snap-in mouthpiece for
+  faster emergency intubation.
+- Total Artificial Heart (Medical Equipment) — concept/renders for an
+  implantable pump replacing heart ventricles.
+- Eye Fatigue Measuring Device (Consumer Healthcare) — measures eye
+  fatigue via blink-pattern analysis.
+- Dhvani (Consumer Healthcare) — affordable specialised hearing aid with
+  multi-level noise cancellation, designed for the Indian market using
+  200+ ear-structure measurements.
+- Urowear (Consumer Healthcare) — discreet wearable improving the user
+  experience of ostomy patients.
+- Nutrify Today (Consumer Healthcare) — social networking mobile app for
+  nutraceutical professionals.
+- Digital Stethoscope (Consumer Healthcare) — modern auscultation tool;
+  amplifies sound ~40x, filters ambient noise, integrates with a mobile
+  app for waveform visualization and recording.
+- Speech Enabled Arm (Consumer Healthcare) — bionic arm triggered by
+  independent voice commands.
+- Cancerous Lesions Prediction Algorithm (Diagnostic Devices) — AI/ML
+  software that screens oral mucosa imagery.
+- Spirometer (Diagnostic Devices) — portable spirometer for measuring
+  pulmonary vitals on the go.
+- D-Stat Pico Level (Diagnostic Devices) — instrument to measure and
+  analyse pico-ampere-level currents.
+- Docturepoly (Diagnostic Devices) — device modernising Ayurvedic
+  diagnostic interfaces with AI/ML.
+- Oral Cancer Diagnostic Device (Diagnostic Devices) — biochemical-platform
+  device for oral cancer diagnosis.
+- KIWI Smart Watch (Monitoring Devices) — vitals-monitoring wearable.
+- Contactless Pulse Monitoring (Monitoring Devices) — measures pulse from
+  the bedside without contact using AI and sensors.
+- Contactless Covid Screening (Monitoring Devices) — frugal, modular
+  temperature monitoring and attendance marking.
+- Wearable Dehydration Monitoring (Monitoring Devices) — wearable for
+  paediatric patients to monitor dehydration.
+- Multiparameter Monitoring Device (Monitoring Devices) — affordable
+  multi-vital monitoring system.
+- Dental Bracket Manipulating Robot (Therapeutic Devices) — bot that lets
+  orthodontists produce patient-specific brackets at the point of care.
+- Glucose Monitoring Wearable (Diagnostic Devices) — non-invasive diabetic
+  monitoring built as a lifestyle accessory using MEMS technology.
+- Trismus device (Therapeutic Devices) — mouth-exercising device that
+  increases mouth opening and oral tissue flexibility.
+- Smart Water Bottle (Consumer Healthcare) — assistive smart water bottle
+  concept for the nutraceutical industry.
+- Bowel Retractor (Medical Equipment) — ergonomic dual-curved retractor
+  for proctological procedures.
+
+Note: some projects are client work and some are INDQ in-house R&D. Several
+are prototype- or concept-stage. If asked for specifics INDQ has not
+published (client names, exact figures, current status), say you don't
+have that detail and point to https://www.indq.in/crs
+
+====================================================================
+BLOG
+====================================================================
+INDQ publishes articles on its Blogs page: https://www.indq.in/main_blog
+If asked about a specific article's content that is not summarized here,
+point the visitor to the Blogs page.
+
+====================================================================
+PRIVACY (summary — full policy: https://www.indq.in/privacypolicy)
+====================================================================
+- Data collected: personal information (name, email, phone, job title,
+  company), device/usage data, product interaction data, and — where
+  applicable — de-identified health-related data handled under standards
+  such as HIPAA and GDPR.
+- Uses: improving MedTech products and services, responding to enquiries,
+  research and AI-algorithm training, ensuring product performance, and
+  legal/regulatory compliance.
+- Sharing: INDQ does not sell personal data. Limited sharing with
+  technology/infrastructure partners, regulatory authorities where
+  legally required, and research collaborators (anonymized/aggregated
+  data only).
+- Security: encryption, secure storage, access control, regular audits.
+- Retention: only as long as necessary for the stated purposes or as
+  required by law.
+- Rights: access, correction, deletion, and objection to certain uses;
+  request via https://www.indq.in/crs
+- Children: services are not directed to anyone under 18.
+- International transfers: data may be processed in India, where INDQ's
+  servers and offices are located.
+
+====================================================================
+ANSWERING NOTES FOR THE ASSISTANT
+====================================================================
+- INDQ is a design & engineering studio, not a hospital or clinic. It
+  does not provide medical advice, diagnoses, or treatment to patients.
+- Do not invent client names, prices, timelines, headcount, revenue,
+  award names, or certification numbers beyond what is listed above.
+- The ONLY link you give for contact, enquiries, quotes, careers, project
+  starts, or "not covered here" is https://www.indq.in/crs
+- Never give out an email address, phone number, the /Contact page, or any
+  other link for getting in touch. Only https://www.indq.in/crs

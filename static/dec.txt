@@ -1,0 +1,9 @@
+<div class="bg-white p-6  lg:mt-24">
+  <div class="flex flex-col md:flex-row justify-around gap-8 items-center">
+    <!-- Heading -->
+    <div class="text-center lg:pl-12 lg:ml-12 text-5xl lg:text-6xl font-inter grid grid-cols-1 gap-2">
+      <div class="mt-6"></div> <!-- Top spacing instead of <br> -->
+      
+      <div class="flex justify-center items-center">
+        <span>Innovation</span>
+        <span class="bg-gradient-to-r from-[#B9DFF1] via-[#F3C9BD] to-[#F7E6A7] bg-clip-text text-transparent ml-1">.</span>
